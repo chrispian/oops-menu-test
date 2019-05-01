@@ -1,0 +1,11 @@
+{
+    "require": {
+        "webdevstudios/oops-wp": "^0.2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CHB\\MenuTest\\":"src/"
+        }
+    }
+}
