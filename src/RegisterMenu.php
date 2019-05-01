@@ -21,14 +21,4 @@ class RegisterMenu extends Menu {
 	protected $location    = 'test-loc';
 	protected $description = 'Test Menu Description';
 
-
-	/**
-	 * Callback to register the menu with WordPress.
-	 *
-	 * @since 2019-05-01
-	 */
-	public function register() {
-		parent::register();
-	}
-
 }
