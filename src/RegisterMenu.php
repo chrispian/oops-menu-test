@@ -6,7 +6,7 @@
 
 namespace CHB\MenuTest;
 
-use WebDevStudios\OopsWP\Structure\Content\Menu;
+use WebDevStudios\OopsWP\Structure\Menu\Menu;
 
 /**
  * Class Menu
@@ -17,8 +17,6 @@ use WebDevStudios\OopsWP\Structure\Content\Menu;
  */
 
 class RegisterMenu extends Menu {
-
 	protected $location    = 'test-loc';
 	protected $description = 'Test Menu Description';
-
 }
